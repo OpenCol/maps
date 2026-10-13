@@ -49,6 +49,20 @@ a.col-btn:where(:hover){color:var(--_fg)}
   background:color-mix(in srgb,var(--surface-3) 96%,transparent);
 }
 
+.archive-editor{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px 32px;
+  margin-bottom:40px;
+  scroll-margin-top:80px;
+}
+.archive-editor-text{flex:1 1 420px;min-width:0}
+.archive-editor h2{margin-top:0}
+.archive-editor .col-dim{margin-bottom:0;max-width:68ch}
+.archive-editor-actions{flex:0 1 auto;margin:0}
+
 .archive-filter-panel{margin-bottom:24px}
 .archive-search-field{flex:1 1 280px;margin:0}
 .archive-tag-filter-field{flex:0 1 260px;margin:0}

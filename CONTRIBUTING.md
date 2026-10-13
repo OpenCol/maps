@@ -22,6 +22,12 @@ metadata for an existing map. Please include as much as you can:
 A maintainer will review the issue, ask follow-up questions if needed, and add
 accepted maps to the repository.
 
+Made a map of your own? The original Colonization map editor runs on modern
+macOS and Windows — download it from the
+[OpenCol/mapedit releases](https://github.com/OpenCol/mapedit/releases/latest).
+It saves the same `.MP` files the game loads, so its output can be submitted
+here as-is.
+
 ## Advanced: submit a pull request
 
 Pull requests are welcome if you are comfortable preparing the repository

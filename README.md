@@ -15,6 +15,25 @@ maintainer can review it and add it to the archive. If you are comfortable with
 Git, you can also submit the files directly with a pull request; see
 [CONTRIBUTING.md](CONTRIBUTING.md) for both paths.
 
+## Make and edit maps
+
+The map editor that shipped with Colonization for DOS (`MAPEDIT.EXE`) now runs
+natively on modern systems — no DOSBox or emulator needed. Download it from the
+[OpenCol/mapedit releases](https://github.com/OpenCol/mapedit/releases/latest):
+
+| System | Download |
+| --- | --- |
+| macOS 11 or later, Apple silicon and Intel | `mapedit-<version>-macos.zip` |
+| Windows 10/11, 64-bit | `mapedit-<version>-windows-x64.zip` |
+| Linux | build from [source](https://github.com/OpenCol/mapedit) (needs SDL3) |
+
+It is rebuilt from the original editor's source, so it has the same screens,
+keys and menus, and reads and writes the same `.MP` files as the 1994 editor.
+You need your own copy of **Colonization for DOS** (GOG or Steam): the editor
+uses the game's art and palette and saves maps into the game's folder. Like the
+original, it saves over the `.MP` file it opened, so keep a copy of any map you
+download from this archive before editing it.
+
 ## Archive layout
 
 Each map has a stable, lowercase ID and exactly three files. Most maps use a
